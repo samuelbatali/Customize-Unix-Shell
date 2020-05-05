@@ -1,9 +1,9 @@
 Custom Shell (C/C++)
 
-Creating a basic command-line interpreter
-  Process a limited number of built-in commands
-  Perform error handling in various cases
-  Use fork() to run external and/or unix commands
+Creating a basic command-line interpreter <br />
+Process a limited number of built-in commands <br />
+Perform error handling in various cases <br />
+Use fork() to run external and/or unix commands
 
-  @author: Samuel Batali
-  @Year: 2020
+  @author: Samuel Batali <br />
+  @Year: 2020 <br />
