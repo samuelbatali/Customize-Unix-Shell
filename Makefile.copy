@@ -1,0 +1,19 @@
+#
+# Created by Samuel Batali
+#
+
+EXTENSION = shell
+
+C_SOURCES = $(wildcard *.c) $(wildcard functions/*.c)
+CXX_SOURCES = $(wildcard *.cpp) $(wildcard functions/*.cpp)
+
+C_OBJECTS = $(C_SOURCES:.c=.o)
+CXX_OBJECTS = $(CXX_SOURCES:.cpp=.o)
+
+all: $(EXTENSION)
+
+$(EXTENSION): $(CXX_OBJECTS) $(C_OBJECTS)
+	$(CXX) $(LDFLAGS) $^ -o $@
+
+clean:
+	-rm -f $(EXTENSION) $(CXX_OBJECTS) $(C_OBJECTS)
