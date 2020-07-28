@@ -32,7 +32,7 @@ int main(int argc, char const *argv[])
     {
         vector<string> dirs = split_string(string(dirr), '/');
         delete[] dirr;
-        string dir = dirs[dirs.size() - 1];
+        dir = dirs[dirs.size() - 1];
     }
 
     string input;
