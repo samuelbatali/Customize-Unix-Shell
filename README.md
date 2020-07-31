@@ -1,20 +1,23 @@
 @author: Samuel Batali <br />
 @Year: 2019 - Present <br />
 
-Custom Shell (C/C++)
+# Custom Shell (C/C++)
 
-Creating a basic command-line interpreter (Shell) <br />
-Process a number of unique commands not in the traditional Unix shell <br />
-Fork() new processes to run external and/or unix commands
-
-Developed programs to process unique commands for file processing and etc
-Create a new process to run external/Unix commands
-Create threads to run background processes
+## A powerful command-line interpreter (Shell) <br />
+Create (fork) new processes to run external/Unix commands <br> 
+Create threads to run background processes <br>
 Custom Shell (C/C++)
 
 Creating a basic command-line interpreter <br />
 Process a limited number of built-in commands and perform error handling in various cases <br />
 Use fork() to run external and/or unix commands
 
-@author: Samuel Batali <br />
-@Year: 2019 <br />
+In case of an issue, concerns or questions, create an issue on this repo
+
+Must have a good understanding of:
+1. C and C++ programming (Libraries, STL, Pointers, references)
+2. Parallel programming (Muli-process)
+3. Concurrency
+4. Makefiles
+5. gdb (Debugging)
+6. Semaphores
