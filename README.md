@@ -16,7 +16,7 @@ In case of an issue, concerns or questions, create an issue on this repo
 
 Must have a good understanding of:
 1. C and C++ programming (Libraries, STL, Pointers, references)
-2. Parallel programming (Muli-process)
+2. Parallel programming (Multi-process)
 3. Concurrency (Threads)
 4. Makefiles
 5. gdb (Debugging)
